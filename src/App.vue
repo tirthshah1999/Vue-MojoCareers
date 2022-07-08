@@ -1,26 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <MainNav />
+  <my-hero />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
+import MainNav from "@/components/Navigation/MainNav.vue";
+import MyHero from "@/components/JobSearch/MyHero.vue";
+// npm run lint --fix to fix lint errors
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    MainNav,
+    MyHero,
   },
 };
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
