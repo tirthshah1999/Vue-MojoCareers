@@ -8,15 +8,18 @@
         <label class="absolute left-0 top-10">Role</label>
         <!-- @input is an event like onChange, trigger this so 2 way data binding achieve -->
         <!-- <input type="text" placeholder="Software Engineer" class="w-full text-lg font-normal focus:outline-none" :value="role" @input="updateRole" />    -->
-        <text-input placeholder="Software Engineer" v-model="role" />
+        <text-input v-model="role" placeholder="Software Engineer" />
       </div>
-      <span class="flex items-center h-full px-3 border-l border-r border-brand-gray-3 bg-brand-gray-2">in</span>
-      
+      <span
+        class="flex items-center h-full px-3 border-l border-r border-brand-gray-3 bg-brand-gray-2"
+        >in</span
+      >
+
       <div class="relative flex items-center flex-1 h-full pr-3">
         <label class="absolute left-0 top-10">Where?</label>
         <!-- v-model is directive shortcut for 2 way data binding we just did above -->
         <!-- <input type="text" placeholder="Los Angeles" class="w-full text-lg font-normal focus:outline-none" v-model="location" /> -->
-        <text-input placeholder="Los Angeles" v-model="location" />
+        <text-input v-model="location" placeholder="Los Angeles" />
       </div>
     </div>
     <action-button text="Search" type="secondary" class="rounded-r-3xl" />
@@ -33,32 +36,32 @@ export default {
     ActionButton,
     TextInput,
   },
-  
-  data(){
-    return{
+
+  data() {
+    return {
       role: "",
       location: "",
     };
   },
-  
+
   methods: {
-    updateRole(payload){   
+    updateRole(payload) {
       this.role = payload;
     },
-      
-    updateLocation(payload){
-      this.location = payload;  
+
+    updateLocation(payload) {
+      this.location = payload;
     },
 
     // If you write inline in template then $event you have to write so just to remeber, else its parameter you can write anything
-    
-    // updateRole($event){   
+
+    // updateRole($event){
     //   this.role = $event.target.value;
     // },
 
     // updateLocation($event){
     //   this.location = $event.target.value;    no need v-model will handle it
     // },
-  }
+  },
 };
 </script>

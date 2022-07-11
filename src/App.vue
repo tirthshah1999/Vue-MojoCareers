@@ -1,17 +1,18 @@
 <template>
-  <MainNav />
-  <my-hero />
+  <div>
+    <main-nav />
+    <!-- Dynamic : If home url is there then Home Comp will render same for jobs -->
+    <router-view />   
+  </div>
 </template>
 
 <script>
 import MainNav from "@/components/Navigation/MainNav.vue";
-import MyHero from "@/components/JobSearch/MyHero.vue";
-// npm run lint --fix to fix lint errors
+
 export default {
   name: "App",
   components: {
     MainNav,
-    MyHero,
   },
-};
+}
 </script>
