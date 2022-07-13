@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1657614577597" clover="3.2.0">
-  <project timestamp="1657614577597" name="All files">
-    <metrics statements="14" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="6" elements="21" coveredelements="19" complexity="0" loc="14" ncloc="14" packages="3" files="5" classes="5"/>
+<coverage generated="1657703768743" clover="3.2.0">
+  <project timestamp="1657703768744" name="All files">
+    <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7" elements="21" coveredelements="21" complexity="0" loc="14" ncloc="14" packages="3" files="5" classes="5"/>
     <package name="components.Navigation">
-      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="MySubnav.vue" path="C:\Web\Vue-Course-Project\job-search\src\components\Navigation\MySubnav.vue">
-        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="13" count="2" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
       </file>
       <file name="ProfilePic.vue" path="C:\Web\Vue-Course-Project\job-search\src\components\Navigation\ProfilePic.vue">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -19,15 +19,15 @@
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <file name="ActionButton.vue" path="C:\Web\Vue-Course-Project\job-search\src\components\Shared\ActionButton.vue">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="20" count="7" type="stmt"/>
-        <line num="27" count="2" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
       </file>
       <file name="TextInput.vue" path="C:\Web\Vue-Course-Project\job-search\src\components\Shared\TextInput.vue">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="33" count="3" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
       </file>
     </package>
     <package name="utils">
